@@ -11,13 +11,13 @@ if username.lower() == "ake" and password.lower() == "zaza":
     print("3.Shower Cream        ", showerCream, " THB")
     user_input = int(input("select order : "))
     if user_input == 1:
-        Enter_the_amount_of_the_product = int(input("How much : "))
+        Enter_the_amount_of_the_product = int(input("How many : "))
         print("Total water price is :", Enter_the_amount_of_the_product * water, "THB")
     elif user_input == 2:
-        Enter_the_amount_of_the_product = int(input("How much : "))
+        Enter_the_amount_of_the_product = int(input("How many : "))
         print("Total candy price is :", Enter_the_amount_of_the_product * candy, "THB")
     elif user_input == 3:
-        Enter_the_amount_of_the_product = int(input("How much : "))
+        Enter_the_amount_of_the_product = int(input("How many : "))
         print("Total shower cream price is :", Enter_the_amount_of_the_product * showerCream, "THB")
     else:
         print("Error")
